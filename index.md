@@ -8,5 +8,5 @@ Este espaço foi criado para compartilhar descobertas, resumos de algoritmos, ar
 
 ## Posts
 
-1. [Computação Visual?](./blog/aula01.md) (16/08/2026)
+1. [O que é a Computação Visual?](./blog/aula01.md) (16/08/2026)
 ---
