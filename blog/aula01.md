@@ -1,4 +1,4 @@
-# Computação Visual?
+# O que é a Computação Visual?
 
 Quando vi a disciplina, confesso que a primeira coisa que me veio a cabeça foi o desenvolvimento de interfaces (UI/UX) ou front-end. Também passou pela minha mente o uso de softwares de modelagem e edição visual ou o desenvolvimento focado na parte gráfica de jogos digitais.
 
