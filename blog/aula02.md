@@ -1,4 +1,4 @@
-# Matricial ou Vetorial? Como o Computador Representa Imagens
+# Como o Computador Representa Imagens
 
 Na aula, exploramos como o mundo físico é convertido para o ambiente digital. Um dos tópicos mais práticos e fundamentais dessa discussão é a diferença entre **Imagens Matriciais** e **Imagens Vetoriais**.
 
