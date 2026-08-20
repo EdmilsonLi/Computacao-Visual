@@ -22,4 +22,6 @@ Diferente das matrizes de pixels, a imagem vetorial é definida por instruções
 * **Exemplos no dia a dia:** Logotipos, ícones em SVG ou artes feitas no Illustrator.
 * **A grande vantagem:** São **independentes de resolução**. Como a imagem é calculada em tempo real pelo software para ser exibida na tela, você pode ampliá-la infinitamente sem perder qualquer nitidez.
 
+---
+
 Compreender essa diferença é fundamental. E a escolha entre o modelo matricial e o vetorial define como os dados de uma imagem serão armazenados, processados e manipulados.
