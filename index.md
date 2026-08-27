@@ -10,5 +10,6 @@ Este espaço foi criado para compartilhar descobertas, resumos de algoritmos, ar
 
 1. [O que é a Computação Visual?](./blog/aula01.md) (16/08/2026)
 2. [Como o Computador Representa Imagens](./blog/aula02.md) (20/08/2026)
+3. [Transformações de Intensidade no Domínio Espacial](./blog/aula03.md) (27/08/2026)
 
 ---
