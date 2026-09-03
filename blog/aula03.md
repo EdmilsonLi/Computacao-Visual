@@ -32,8 +32,8 @@ Além do realce estético, a **correção gama** é indispensável para calibrar
 
 | Transformação | Equação | Comportamento Principal | Aplicação Típica |
 | :--- | :--- | :--- | :--- |
-| **Logarítmica** | $s = c \cdot \log(1 + r)$ | Expande tons escuros e comprime tons claros | Visualização do Espectro de Fourier |
-| **Gama ($\gamma < 1$)** | $s = c \cdot r^\gamma$ | Clareia a imagem esticando as sombras | Fotos subexpostas / escuras |
-| **Gama ($\gamma > 1$)** | $s = c \cdot r^\gamma$ | Escurece a imagem comprimindo as sombras | Fotos super-expostas / "lavadas" |
+| **Logarítmica** | s = c &middot; log(1 + r) | Expande tons escuros e comprime tons claros | Visualização do Espectro de Fourier |
+| **Gama (&gamma; &lt; 1)** | s = c &middot; r<sup>&gamma;</sup> | Clareia a imagem esticando as sombras | Fotos subexpostas / escuras |
+| **Gama (&gamma; &gt; 1)** | s = c &middot; r<sup>&gamma;</sup> | Escurece a imagem comprimindo as sombras | Fotos super-expostas / "lavadas" |
 
 Manipular a intensidade pixel a pixel demonstra como funções matemáticas simples conseguem transformar completamente a qualidade visual e a interpretação de uma imagem digital.
