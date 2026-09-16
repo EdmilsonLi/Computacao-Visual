@@ -1,4 +1,4 @@
-# Mecanismos de Filtragem Espacial: Do Borramento ao Filtro de Mediana
+# Mecanismos de Filtragem Espacial
 
 Após estudarmos as transformações pontuais de intensidade, o avanço natural no **domínio espacial** é considerar não apenas o pixel isolado, mas a sua **vizinhança**. Na aula de hoje sobre **Computação Visual**, exploramos como máscaras de convolução, conhecidas como *kernels* ou janelas de filtragem, atuam sobre a matriz de pixels para suavizar ruídos, destacar detalhes ou transformar a estrutura de uma imagem.
 
@@ -12,7 +12,7 @@ Há uma regra fundamental no desenvolvimento desses algoritmos: **a imagem origi
 
 ---
 
-## 🌊 Filtros de Suavização (Passa-Baixa)
+## 🌊 Filtros de Suavização
 
 Os filtros passa-baixa atenuam as altas frequências — que representam transições bruscas de intensidade —, resultando no efeito de **borramento (*blur*)** e na redução de ruídos contínuos.
 
