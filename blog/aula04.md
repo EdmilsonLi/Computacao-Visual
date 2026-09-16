@@ -14,7 +14,7 @@ Há uma regra fundamental no desenvolvimento desses algoritmos: **a imagem origi
 
 ## 🌊 Filtros de Suavização
 
-Os filtros passa-baixa atenuam as altas frequências — que representam transições bruscas de intensidade —, resultando no efeito de **borramento (*blur*)** e na redução de ruídos contínuos.
+Os filtros passa-baixa atenuam as altas frequências, que representam transições bruscas de intensidade, resultando no efeito de **borramento (*blur*)** e na redução de ruídos contínuos.
 
 1. **Filtro da Média (Box Filter):** Substitui o pixel central pela média aritmética dos seus vizinhos (com pesos iguais a $\frac{1}{9}$ em um kernel $3 \times 3$). Aumentar o tamanho da janela (ex.: $5 \times 5$ ou $17 \times 17$) intensifica o nível de suavização.
 2. **Filtro Gaussiano:** Utiliza uma média ponderada onde os pixels mais próximos do centro têm maior peso. Isso produz um borramento visualmente mais natural e preserva melhor as estruturas da cena.
