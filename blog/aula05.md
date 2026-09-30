@@ -25,6 +25,7 @@ Como uma imagem digital é representada por uma matriz de intensidades, podemos 
 [ -1   4  -1 ]
 [  0  -1   0 ]
 ```
+---
 
 ## 🛠️ Kernels de Gradiente: Roberts, Prewitt e Sobel
 Para calcular o gradiente de forma discreta na imagem, utilizamos máscaras de convolução (kernels):
@@ -33,12 +34,16 @@ Para calcular o gradiente de forma discreta na imagem, utilizamos máscaras de c
 2. Prewitt: Avalia variações horizontais e verticais com pesos uniformes.
 3. Sobel: Semelhante ao Prewitt, mas concede maior peso ao pixel central da direção analisada, oferecendo uma resposta ligeiramente mais suave a ruídos.
 
+---
+
 ## ⚠️ O Desafio do Ruído
 A operação de derivada é extremamente sensível a variações locais. Isso significa que o ruído é fortemente amplificado, gerando bordas falsas.
 A solução clássica é aplicar uma suavização prévia com um Filtro Gaussiano antes de extrair os gradientes. Existe aqui um trade-off de escala:
 
 * Filtros pequenos (sigma baixo): Mantêm detalhes finos, mas preservam mais ruído.
 * Filtros grandes (sigma alto): Eliminam o ruído e destacam contornos globais, porém desvisibilizam detalhes e borram os contornos.
+
+---
 
 ## 🌟 O Detector de Bordas de Canny
 Considerado um dos algoritmos mais eficientes da área, o Detector de Canny resolve esse desafio em quatro etapas encadeadas:
@@ -50,6 +55,8 @@ Considerado um dos algoritmos mais eficientes da área, o Detector de Canny reso
     * Gradientes acima de H viram bordas fortes.
     * Gradientes entre L e H (bordas fracas) só são mantidos se estiverem conectados a uma borda forte.
     * Gradientes abaixo de L são totalmente descartados.
+
+---
 
 ## 📊 Comparativo dos Métodos
 | Método | Tipo | Vantagem Principal | Desvantagem / Limitação | 
