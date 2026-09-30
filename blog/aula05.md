@@ -1,4 +1,4 @@
-# Detecção de Bordas: Derivadas, Filtros Espaciais e o Algoritmo de Canny
+# Detecção de Bordas
 
 Depois de explorar a suavização e a remoção de ruídos no domínio espacial, o próximo passo essencial na **Computação Visual** é entender como destacar as estruturas da imagem. Na aula de hoje, estudamos a **detecção de bordas** (*edge detection*) — um processo fundamental para segmentação, reconhecimento de objetos e interpretação visual por computadores.
 
