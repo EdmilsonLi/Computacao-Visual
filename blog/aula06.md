@@ -53,7 +53,7 @@ Para prevenir o aliasing ao reduzir o tamanho de uma imagem (*downsampling*), ap
 
 | Conceito | Descrição | Impacto Visual / Aplicação |
 | :--- | :--- | :--- |
-| **DFT 2D** | Converte a imagem do domínio espacial para o da frequência | Análise e filtragem baseada em taxas de variação de intensidade |
+| **Transformada Discreta de Fourier 2D** | Converte a imagem do domínio espacial para o da frequência | Análise e filtragem baseada em taxas de variação de intensidade |
 | **Filtro Passa-Baixa** | Elimina as altas frequências do espectro | Produz borramento/suavização e reduz ruído |
 | **Aliasing** | Artefato gerado por subamostragem abaixo do limite de Nyquist | Produz serrilhados (*jaggies*) e padrões Moiré |
 | **Antialiasing** | Filtragem passa-baixa aplicada antes do downsampling | Evita a sobreposição de frequências e reduz o serrilhado |
