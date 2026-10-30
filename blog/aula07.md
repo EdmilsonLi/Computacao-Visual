@@ -1,4 +1,4 @@
-# O Pipeline Gráfico: Da Cena 3D ao Frame Final
+# O Pipeline Gráfico
 
 Dando continuidade aos nossos estudos em **Computação Visual**, a aula de hoje concentrou-se em entender o caminho percorrido por uma cena tridimensional até se transformar na imagem bidimensional exibida no ecrã. Esse fluxo sequencial de operações é conhecido como **pipeline gráfico** (ou pipeline de renderização).
 
