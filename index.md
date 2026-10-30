@@ -14,6 +14,6 @@ Este espaço foi criado para compartilhar descobertas, resumos de algoritmos, ar
 4. [Mecanismos de Filtragem Espacial](./blog/aula04.md) (16/09/2026)
 5. [Detecção de Bordas](./blog/aula05.md) (30/09/2026)
 6. [Do Espaço à Frequência](./blog/aula06.md) (14/10/2026)
-7. [O Pipeline Gráfico](./blog/aula07.md) (14/10/2026)
+7. [O Pipeline Gráfico](./blog/aula07.md) (29/10/2026)
 
 ---
