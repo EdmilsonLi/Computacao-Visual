@@ -15,6 +15,6 @@ Este espaço foi criado para compartilhar descobertas, resumos de algoritmos, ar
 5. [Detecção de Bordas](./blog/aula05.md) (30/09/2026)
 6. [Do Espaço à Frequência](./blog/aula06.md) (14/10/2026)
 7. [O Pipeline Gráfico](./blog/aula07.md) (29/10/2026)
-7. [Reflexão Final](./blog/aula08.md) (12/11/2026)
+8. [Reflexão Final](./blog/aula08.md) (12/11/2026)
 
 ---
